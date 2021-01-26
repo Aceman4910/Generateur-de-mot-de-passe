@@ -1,0 +1,15 @@
+Utilisation du programme InterfaceServeur	
+
+Installation :
+
+Préalable : installation de python 3.x
+
+https://www.python.org/downloads/
+
+Copier puis coller les fichier SauvUser.csv et InterfaceServeur.py dans un dossier avec tous les droit administrateur
+
+Utilisation :
+
+entrez toutes les information demander il générera un mot de passe et le changera dans l' active directory puis lancer la génération automatique pour régénérer les mot de passe tous les jours a minuit 
+
+il est possible ajouter manuellement les utilisateur dans le fichier SauvUser.csv

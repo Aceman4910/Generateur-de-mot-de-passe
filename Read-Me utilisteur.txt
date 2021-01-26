@@ -1,0 +1,14 @@
+Utilisation du programme InterfaceUtilisateur
+
+Installation :
+
+Préalable : installation de python 3.x
+
+https://www.python.org/downloads/
+
+Copier puis coller la fichier InterfaceUtilisateur.py sur le bureau 
+
+Utilisation :
+
+Entrez toutes les informations demandé puis "génération" le mot de passe sera afficher et copier dans le presse papier pour le collé directement sur le mot de passe de l utilisateur
+
