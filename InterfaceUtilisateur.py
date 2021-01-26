@@ -22,8 +22,6 @@ class MdpSolu:
                 #cacul de la date du jours
                 self.DateDay = (jours+mois+annee).encode('utf-8')
 
-        # Definition de la date du jours
-
         def Calcul(self,userstr,DateNaissstr,Entreprisestr,Deptstr):
                 #transfortion des variable et UTF-8
                 User = userstr.encode('utf-8')
@@ -42,14 +40,10 @@ class MdpSolu:
 
                 #reformation du mot de passe
                 self.PwFinal = bytes.fromhex(PwUTF).decode('utf-8',"ignore")
-
-
-# On crée une fenêtre, racine de notre interface
+		
 # On crée une fenêtre, racine de notre interface
 fenetre = Tk()
 
-# On crée un label (ligne de texte) souhaitant la bienvenue
-# Note : le premier paramètre passé au constructeur de Label est notre
 # interface racine
 champ_label = Label(fenetre, text="Génération du mot de passe!")
 # On affiche le label dans la fenêtre
